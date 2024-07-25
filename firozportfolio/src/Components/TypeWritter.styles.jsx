@@ -7,7 +7,8 @@ export const TypeWritterContainer=styled.div`
 
 width:50%;
 height:50vh;
-background-color:${Colors.bottomDarkColor};
+margin-top:20px;
+${'' /* background-color:${Colors.bottomDarkColor}; */}
 
 `
 
@@ -17,6 +18,6 @@ color:${Colors.white};
 
 `
 
-export const Character=styled.span`
+export const SpanText=styled.span`
 
 `
