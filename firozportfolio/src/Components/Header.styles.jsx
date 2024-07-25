@@ -1,8 +1,6 @@
 import {styled,createGlobalStyle} from "styled-components";
 import Colors from "../Colors";
 
-
-
 export const GlobalStyle=createGlobalStyle`
 *{
     margin: 0;
@@ -11,8 +9,6 @@ export const GlobalStyle=createGlobalStyle`
     font-weight:400;
     font-family: "Jost", sans-serif;
 }
-
-
 `
  
 export const NavBarContainer=styled.div`
@@ -41,23 +37,19 @@ export const ImageView=styled.img`
 
 `
 
-
 export const HeaderText=styled.h3`
 letter-spacing:0.1rem;
 font-family: "Great Vibes", cursive;
   font-weight: 600;
   
 `
-
 export const ListContainer=styled.div`
 
 `
 
 export const UnorderedList=styled.ul`
- 
 display:flex;
 gap:1.2rem;
-
 
 `
 export const List=styled.li`
@@ -82,7 +74,6 @@ text-decoration:none;
         width:0%;
         border-bottom:0.2rem solid ${Colors.mainColor};
         transition:all 0.3s linear;
-     
        
     }
  &:hover::after{

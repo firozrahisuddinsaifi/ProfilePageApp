@@ -48,7 +48,6 @@ duckBlue: '#0a6886',
   bottomDarkColor: '#999999',
   profileBgColor: '#0a6886',
   gainsBoro: '#dcdcdc',
-
   falseTrackColor: '#767577',
   trueTrackColor: '#81b0ff',
   enabledTrueColor: '#ffffff',

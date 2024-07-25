@@ -1,7 +1,6 @@
-
 export default {
        ima:"I'm a ",
-       firozsoftwaredevelopmentengineer:"Firoz Software Development Engineer",
+      firozsoftwaredevelopmentengineer:"Firoz Software Development Engineer",
        home:"Home",
        about:"About",
        services:"Services",

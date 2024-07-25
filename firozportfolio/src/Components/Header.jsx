@@ -13,18 +13,21 @@ const {
     contact,
     resume,
 }=ConstValues;
+
 export const Header =()=>{
  
     return(<>
 
-   <GlobalStyle />
-        <NavBarContainer>
-            <HeaderContainer>
-                <ImageContainer>
+        <GlobalStyle />
+              <NavBarContainer>
+                   <HeaderContainer>
+                   <ImageContainer>
                        <HeaderText>{firozsoftwaredevelopmentengineer}</HeaderText>
-                </ImageContainer>
-<ListContainer>
-<UnorderedList>
+                 </ImageContainer>
+
+                <ListContainer>
+                        
+                        <UnorderedList>
                     <List><NavLink href="#">{home}</NavLink></List>
                     <List><NavLink href="#">{about}</NavLink></List>
                     <List><NavLink href="#">{services}</NavLink></List>
@@ -32,9 +35,11 @@ export const Header =()=>{
                     <List><NavLink href="#">{skills}</NavLink></List>
                     <List><NavLink href="#">{projects}</NavLink></List>
                     <List><NavLink href="#">{contact}</NavLink></List>
-                </UnorderedList>
+                    </UnorderedList>
+
             </ListContainer>
             </HeaderContainer>
+            
         </NavBarContainer>
     </>)
 }
