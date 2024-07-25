@@ -8,7 +8,6 @@ export const TypeWritterContainer=styled.div`
 width:50%;
 height:50vh;
 margin-top:20px;
-${'' /* background-color:${Colors.bottomDarkColor}; */}
 
 `
 
