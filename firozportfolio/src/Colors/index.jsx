@@ -48,11 +48,13 @@ duckBlue: '#0a6886',
   bottomDarkColor: '#999999',
   profileBgColor: '#0a6886',
   gainsBoro: '#dcdcdc',
-
   falseTrackColor: '#767577',
   trueTrackColor: '#81b0ff',
   enabledTrueColor: '#ffffff',
   enabledFalseColor: '#f4f3f4',
   iosBgColor: '#3e3e3e',
-  shadowColor: '#9b9a9a'
+  shadowColor: '#9b9a9a',
+  mainColor:'#0062ff',
+  headingColor:'#000a19',
+  borderBottomColor:'#003b99'
 };
