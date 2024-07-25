@@ -10,7 +10,6 @@ export const GlobalStyle=createGlobalStyle`
     font-family: "Jost", sans-serif;
 }
 `
- 
 export const NavBarContainer=styled.div`
 width:100%;
 box-shadow:rgba(0,0,0,0.1) 0px 6px 24px 0px;
@@ -36,7 +35,6 @@ export const ImageLink=styled.a`
 export const ImageView=styled.img`
 
 `
-
 export const HeaderText=styled.h3`
 letter-spacing:0.1rem;
 font-family: "Great Vibes", cursive;
