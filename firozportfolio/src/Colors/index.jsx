@@ -56,5 +56,9 @@ duckBlue: '#0a6886',
   shadowColor: '#9b9a9a',
   mainColor:'#0062ff',
   headingColor:'#000a19',
-  borderBottomColor:'#003b99'
+  borderBottomColor:'#003b99',
+  buttonColor:"#111111",
+  buttonShadow: "rgba(100,100,111,0.2)0px 7px 29px 0px",
+  buttonTextColor: "#f8a200",
+
 };
