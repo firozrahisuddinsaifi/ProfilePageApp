@@ -1,5 +1,5 @@
 export default {
-       ima:"I'm a ",
+       ima:"I'm good in",
       firozsoftwaredevelopmentengineer:"Firoz Software Development Engineer",
        home:"Home",
        about:"About",
@@ -8,4 +8,5 @@ export default {
        contact:"Contact",
        projects:"Projects",
        resume:"Resume",
+       unlockMyPotentialWithYou:"Unlock My Potential With You",
 }
