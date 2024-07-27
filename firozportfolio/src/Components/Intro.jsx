@@ -34,7 +34,7 @@ export const Intro=()=>{
         },24000);
     }
 
-    TextLoad();
+   
    setInterval(TextLoad,28000);
  
   
