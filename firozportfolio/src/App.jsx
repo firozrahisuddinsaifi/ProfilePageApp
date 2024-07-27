@@ -1,4 +1,5 @@
 import { Header } from "./Components/Header"
+
 import { TypeWritter } from "./Components/TypeWritter"
 
 export const App=()=>{
@@ -6,5 +7,6 @@ export const App=()=>{
  
   <Header />
   <TypeWritter />
+
   </>)
 }
