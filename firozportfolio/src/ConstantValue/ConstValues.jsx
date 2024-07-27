@@ -8,5 +8,5 @@ export default {
        contact:"Contact",
        projects:"Projects",
        resume:"Resume",
-       unlockMyPotentialWithYou:"Unlock My Potential With You",
+       unlockMyPotentialWithYou:"Bringing Simplicity And Reliability To Complex Software Challenges",
 }

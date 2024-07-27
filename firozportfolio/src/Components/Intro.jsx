@@ -1,5 +1,5 @@
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import { FirstText, MainContainer, SecondText } from "./Intro.styles";
+import { FirstText, MainContainer, RunningText, SecondText } from "./Intro.styles";
 import Colors from '../Colors';
 
 
@@ -16,13 +16,12 @@ export const Intro=()=>{
     return(<>
 
 <MainContainer>
-
-<h1>
+<RunningText>
 <FirstText>{text}</FirstText>
 <SecondText> 
 <Cursor  cursorColor= {Colors.black} cursorStyle={'<'}/>
 </SecondText>
-</h1>
+</RunningText>
 
 </MainContainer>
 
