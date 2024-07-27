@@ -8,6 +8,9 @@ width:35.5rem;
 height:10vh;
 `
 
+export const RunningText=styled.h1`
+
+`
 export const FirstText=styled.span`
 color:${Colors.buttonTextColor};
 
