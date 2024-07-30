@@ -65,7 +65,7 @@ font-size:45px;
 export const ButtonContainer=styled.div`
 margin-top:1rem;
 `
-export const ResumeButton=styled.a`
+export const ResumeButton=styled.button`
 
 background-color: ${Colors.buttonColor};
 color:${Colors.buttonTextColor};
@@ -75,6 +75,8 @@ border-radius:0.3rem;
 text-decoration:none;
 letter-spacing:0.1rem;
 font-weight:500;
+border:none;
+font-size:22px;
 
 &:hover{
     background-color:${Colors.black};
