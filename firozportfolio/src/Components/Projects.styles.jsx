@@ -1,20 +1,84 @@
 import styled from "styled-components";
-
+import Colors from "../Colors";
 
 export const ProjectContainer=styled.div`
-max-width:100rem;
-margin:0 auto;
-padding:2.6rem 2.4rem;
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:2.6rem;
-align-items:center;
-background-color:red;
+
 
 `
 
-export const ProjectCard=styled.div`
-display:grid;
-grid-template-columns:repeat(3,1fr);
+export const Container=styled.div`
 
+ width:100%;
+ height:auto;
+ padding:2.6rem 2.4rem;
+
+
+`
+
+export const ProjectContainerHeading=styled.div`
+
+ width:22.2rem;
+ height:auto;
+  padding:1.25rem;
+`
+
+export const ProjectContainerText=styled.h1`
+`
+
+export const ProjectCards=styled.div`
+background-color:${Colors.white};
+border-radius:0.25rem;
+padding:1.8rem 1.4rem;
+transition:all 0.3s;
+
+box-shadow:rgba(0,0,0,0.1) 0px 6px 24px 0px;
+
+&:hover{
+box-shadow:rgba(0,0,0,0.2) 0px 6px 24px 0px;
+cursor:pointer;
+}
+
+`
+export const ProjectCardsContainer=styled.div`
+border-radius:0.25px;
+box-shadow:rgba(248,162,0,0.4) 0px 6px 24px 0px;
+margin-top:10px;
+
+           width:100%;
+           height:auto;
+            padding:3.5rem;
+            display:grid;
+            align-item:center;
+            text-align:center;
+            gap:6rem;
+            grid-template-columns:repeat(3,1fr);
+            
+`
+
+export const ProjectNameText=styled.h1`
+letter-spacing:0.1rem;
+`
+export const ProjectHiglightText=styled.p`
+margin-top:0.5rem;
+letter-spacing:0.1rem;
+`
+export const GitHubButton=styled.button`
+
+margin-top:2.5rem;
+width:10rem;
+padding:0.9rem 1rem;
+background-color:${Colors.buttonColor};
+color:${Colors.buttonTextColor};
+border:none;
+font-size:1.2rem;
+letter-spacing:0.1rem;
+border-radius:0.25rem;
+
+&:hover{
+ 
+    background-color:${Colors.black};
+    box-shadow:${Colors.buttonShadow};
+    cursor:pointer;
+    
+}
 `

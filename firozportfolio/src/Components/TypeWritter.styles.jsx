@@ -12,6 +12,7 @@ export const TypeWritterContainer=styled.div`
 
 
 export const MainContainer=styled.div`
+
 max-width:100rem;
 margin:0 auto;
 padding:2.6rem 2.4rem;
@@ -77,8 +78,8 @@ font-weight:500;
 
 &:hover{
     background-color:${Colors.black};
- 
     box-shadow:${Colors.buttonShadow};
+    cursor:pointer;
 }
 
 `
