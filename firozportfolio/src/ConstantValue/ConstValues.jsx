@@ -9,4 +9,11 @@ export default {
        projects:"Projects",
        resume:"Resume",
        unlockMyPotentialWithYou:"Bringing Simplicity And Reliability To Complex Software Challenges",
+       github:"GitHub",
+       projectName:"Project Name",
+       aboutProjects:"PROJECTS",
+       highlight:"Highlights",
+       comingSoon:"Coming Soon",
+
+
 }
