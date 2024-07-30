@@ -11,7 +11,6 @@ const {
 }=ConstValues
 
 const PDF_FILE_URL='http://localhost:5173/Firoz-CV.pdf';
-
 export const TypeWritter=()=>{
 
     const downloadFileAtUrl=(url)=>{
@@ -38,7 +37,7 @@ export const TypeWritter=()=>{
                   <Intro  newValue={ima}/>
                    
 <ButtonContainer>
-    <ResumeButton onClick={()=>downloadFileAtUrl(PDF_FILE_URL)}>{resume}</ResumeButton>
+<ResumeButton onClick={()=>downloadFileAtUrl(PDF_FILE_URL)}>{resume}</ResumeButton>
 </ButtonContainer>
                 </TextContainer>
                 <ImageContainer >
