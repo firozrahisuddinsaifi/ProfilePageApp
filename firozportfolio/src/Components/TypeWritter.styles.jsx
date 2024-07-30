@@ -78,8 +78,8 @@ font-weight:500;
 
 &:hover{
     background-color:${Colors.black};
- 
     box-shadow:${Colors.buttonShadow};
+    cursor:pointer;
 }
 
 `
