@@ -8,6 +8,7 @@ export default {
        contact:"Contact",
        projects:"Projects",
        resume:"Resume",
+       comingSoon:"Coming Soon",
        unlockMyPotentialWithYou:"Bringing Simplicity And Reliability To Complex Software Challenges",
        github:"GitHub",
        projectName:"Project Name",

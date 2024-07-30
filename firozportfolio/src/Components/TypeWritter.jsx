@@ -6,6 +6,7 @@ const {
     ima,
     resume,
     unlockMyPotentialWithYou,
+    comingSoon
 
 }=ConstValues
 
@@ -43,7 +44,7 @@ export const TypeWritter=()=>{
                 <ImageContainer >
 
                     <figure>
-                    <Heading>Coming Soon</Heading>
+                    <Heading>{comingSoon}</Heading>
                     {/* use it later */}
                         {/* <ImageView src="#" alt="logo"/> */}
                     </figure>
