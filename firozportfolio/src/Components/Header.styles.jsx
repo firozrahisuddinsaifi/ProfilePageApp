@@ -11,6 +11,9 @@ export const GlobalStyle=createGlobalStyle`
 }
 `
 export const NavBarContainer=styled.div`
+background:${Colors.white};
+position:fixed;
+top:0;
 width:100%;
 box-shadow:rgba(0,0,0,0.1) 0px 6px 24px 0px;
 
