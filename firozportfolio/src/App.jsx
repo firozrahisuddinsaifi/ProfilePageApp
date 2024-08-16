@@ -1,3 +1,4 @@
+import { Contact } from "./Components/Contact"
 import { Header } from "./Components/Header"
 import { Projects } from "./Components/Projects"
 
@@ -10,6 +11,8 @@ export const App=()=>{
   <TypeWritter />
 
   <Projects />
+
+  <Contact />
 
   </>)
 }
