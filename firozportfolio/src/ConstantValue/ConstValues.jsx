@@ -15,6 +15,15 @@ export default {
        aboutProjects:"PROJECTS",
        highlight:"Highlights",
        comingSoon:"Coming Soon",
+       getInTouch:"get in touch",
+       phone:"Phone",
+       number:"8743010481",
+       email:"Email",
+       firozGmailCom:"firozkhandelhi62@gmail.com",
+       address:"Address",
+       newDelhi:"New Delhi",
+
+
 
 
 }
