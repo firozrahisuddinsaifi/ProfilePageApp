@@ -23,9 +23,6 @@ export default {
        git:"Git",
        sql:"SQL",
        c:"C",
-       cpp:"C++",
-
-
-
+       cpp:"C++"
 
 }
