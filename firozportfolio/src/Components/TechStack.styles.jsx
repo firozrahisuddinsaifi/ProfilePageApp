@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import Colors from "../Colors";
 
+
+export const Section=styled.section``;
 export const MainContainer=styled.div`
 margin-top:1.5rem;
 
