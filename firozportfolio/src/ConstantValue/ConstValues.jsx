@@ -15,6 +15,18 @@ export default {
        aboutProjects:"PROJECTS",
        highlight:"Highlights",
        comingSoon:"Coming Soon",
+       techStacks:"Tech Stacks",
+       html:"HTML",
+       css:"CSS",
+       reactNative:"React/Native",
+       javaScript:"JavaScript",
+       dsa:"DSA",
+       git:"Git",
+       sql:"SQL",
+       c:"C",
+       cpp:"C++",
+
+
 
 
 }
