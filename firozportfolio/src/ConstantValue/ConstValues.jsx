@@ -14,6 +14,18 @@ export default {
        projectName:"Project Name",
        aboutProjects:"PROJECTS",
        highlight:"Highlights",
+<<<<<<< HEAD
+       techStacks:"Tech Stacks",
+       html:"HTML",
+       css:"CSS",
+       reactNative:"React/Native",
+       javaScript:"JavaScript",
+       dsa:"DSA",
+       git:"Git",
+       sql:"SQL",
+       c:"C",
+       cpp:"C++"
+=======
        comingSoon:"Coming Soon",
        getInTouch:"get in touch",
        phone:"Phone",
@@ -25,5 +37,6 @@ export default {
 
 
 
+>>>>>>> main
 
 }
