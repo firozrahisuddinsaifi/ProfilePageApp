@@ -10,8 +10,9 @@ export const App=()=>{
  
   <Header />
   <TypeWritter />
-  <Projects />
   <TechStack />
+  <Projects />
+
 
   <Contact />
 
