@@ -14,7 +14,6 @@ export default {
        projectName:"Project Name",
        aboutProjects:"PROJECTS",
        highlight:"Highlights",
-       comingSoon:"Coming Soon",
        techStacks:"Tech Stacks",
        html:"HTML",
        css:"CSS",
