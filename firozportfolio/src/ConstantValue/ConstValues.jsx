@@ -14,6 +14,7 @@ export default {
        projectName:"Project Name",
        aboutProjects:"PROJECTS",
        highlight:"Highlights",
+<<<<<<< HEAD
        techStacks:"Tech Stacks",
        html:"HTML",
        css:"CSS",
@@ -24,5 +25,18 @@ export default {
        sql:"SQL",
        c:"C",
        cpp:"C++"
+=======
+       comingSoon:"Coming Soon",
+       getInTouch:"get in touch",
+       phone:"Phone",
+       number:"8743010481",
+       email:"Email",
+       firozGmailCom:"firozkhandelhi62@gmail.com",
+       address:"Address",
+       newDelhi:"New Delhi",
+
+
+
+>>>>>>> main
 
 }
