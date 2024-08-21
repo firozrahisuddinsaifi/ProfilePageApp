@@ -18,7 +18,7 @@ cpp,
 export const TechStack=()=>{
 
     return<>
-        <div>
+        <>
 
             <MainContainer>
                 <TechSkillContainer>
@@ -39,6 +39,6 @@ export const TechStack=()=>{
                 </TechCardsContainer>
             </MainContainer>
 
-        </div>
+        </>
     </>
 }
