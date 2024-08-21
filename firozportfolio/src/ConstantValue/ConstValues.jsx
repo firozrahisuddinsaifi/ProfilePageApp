@@ -23,7 +23,7 @@ export default {
        git:"Git",
        sql:"SQL",
        c:"C",
-       cpp:"C++"
+       cpp:"C++",
        comingSoon:"Coming Soon",
        getInTouch:"get in touch",
        phone:"Phone",
