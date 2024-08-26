@@ -4,8 +4,7 @@ import Colors from "../Colors";
 
 
 export const TypeWritterContainer=styled.div`
-
-
+margin-top:3rem;
 
 `
 
@@ -20,19 +19,15 @@ display:grid;
 grid-template-columns:repeat(2,1fr);
 gap:2.6rem;
 align-items:center;
+@media screen and (min-width:481px) and (max-width:968px) 
+       {
+          grid-template-columns: repeat(1,1fr);
+        }
 `
 export const TextContainer=styled.div`
-`
-export const RunningTextContainer=styled.div`
-overflow:hidden;
-widht:15.5rem;
-display:grid;
-justify-content:center;
-align-items:center;
-border:2px solid;
-
 
 `
+
 export const RunningText=styled.span`
    position: relative;
     color: #4070Fa;
@@ -56,7 +51,7 @@ color:blue;
 }
 `
 export const Heading=styled.h1`
-font-size:45px;
+font-size:4vw;
 
 `
 
@@ -83,6 +78,13 @@ font-size:22px;
     box-shadow:${Colors.buttonShadow};
     cursor:pointer;
 }
+
+`
+
+export const ImageFigure=styled.figure`
+border:1px solid;
+
+
 
 `
 

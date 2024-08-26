@@ -1,4 +1,4 @@
-import {  ButtonContainer, Heading, ImageContainer, MainContainer, ResumeButton,  TextContainer, TypeWritterContainer } from "./TypeWritter.styles";
+import {  ButtonContainer, Heading, ImageContainer, ImageFigure, MainContainer, ResumeButton,  TextContainer, TypeWritterContainer } from "./TypeWritter.styles";
 import ConstValues from "../ConstantValue/ConstValues";
 import { Intro } from "./Intro";
 
@@ -42,11 +42,11 @@ export const TypeWritter=()=>{
                 </TextContainer>
                 <ImageContainer >
 
-                    <figure>
+                    <ImageFigure>
                     <Heading>{comingSoon}</Heading>
                     {/* use it later */}
                         {/* <ImageView src="#" alt="logo"/> */}
-                    </figure>
+                    </ImageFigure>
                 </ImageContainer>
             </MainContainer>
         </TypeWritterContainer>
