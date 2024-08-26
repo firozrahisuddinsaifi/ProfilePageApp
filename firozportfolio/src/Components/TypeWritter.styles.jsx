@@ -82,9 +82,6 @@ font-size:22px;
 `
 
 export const ImageFigure=styled.figure`
-border:1px solid;
-
-
 
 `
 
