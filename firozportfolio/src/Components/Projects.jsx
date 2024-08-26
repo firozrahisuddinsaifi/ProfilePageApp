@@ -3,9 +3,9 @@ import ConstValues from "../ConstantValue/ConstValues";
 
 const {
 aboutProjects,
-github,
 highlight,
 projectName,
+githubCode,
 
 }=ConstValues
 export const Projects=()=>{
@@ -26,19 +26,19 @@ export const Projects=()=>{
         <ProjectCards>
             <ProjectNameText>{projectName}</ProjectNameText>
             <ProjectHiglightText>{highlight}</ProjectHiglightText>
-            <GitHubButton>{github}</GitHubButton>
+            <GitHubButton>{githubCode}</GitHubButton>
           </ProjectCards>
 
           <ProjectCards >
             <ProjectNameText>{projectName}</ProjectNameText>
             <ProjectHiglightText>{highlight}</ProjectHiglightText>
-            <GitHubButton>{github}</GitHubButton>
+            <GitHubButton>{githubCode}</GitHubButton>
           </ProjectCards>
 
           <ProjectCards>
             <ProjectNameText>{projectName}</ProjectNameText>
             <ProjectHiglightText>{highlight}</ProjectHiglightText>
-            <GitHubButton>{github}</GitHubButton>
+            <GitHubButton>{githubCode}</GitHubButton>
           </ProjectCards>
 
 
