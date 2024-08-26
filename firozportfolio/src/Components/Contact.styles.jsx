@@ -57,12 +57,15 @@ export const ContactCardContainer=styled.div`
 `
 
 export const ContactCard=styled.div`
-width:20rem;
+width:22rem;
 background-color:${Colors.contactCardBackgroundColor};
 border-radius:0.25rem;
 padding:1.8rem 1.4rem;
 transition:all 0.3s;
 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+@media (max-width: 967px) {
+   width:100%;
+  }
 `
 export const ContactCardHeading=styled.h3`
 
