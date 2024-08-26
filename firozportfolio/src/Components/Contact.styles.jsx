@@ -46,21 +46,23 @@ text-decoration:none;
 
 export const ContactCardContainer=styled.div`
  padding:3.5rem;
- display:grid;
+ display:flex;
+ flex-direction:row;
+ justify-content:space-around;
  align-item:center;
  text-align:center;
- gap:6rem;
- grid-template-columns:repeat(3,1fr);
+ flex-wrap:wrap;
+ gap:3rem;
 
 `
 
 export const ContactCard=styled.div`
+width:20rem;
 background-color:${Colors.contactCardBackgroundColor};
 border-radius:0.25rem;
 padding:1.8rem 1.4rem;
 transition:all 0.3s;
-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);;
-
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 `
 export const ContactCardHeading=styled.h3`
 
