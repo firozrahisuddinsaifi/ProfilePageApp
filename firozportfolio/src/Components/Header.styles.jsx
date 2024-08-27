@@ -15,7 +15,7 @@ width:100%;
 box-shadow:rgba(0,0,0,0.1) 0px 6px 24px 0px;
 position:sticky;
 top:0;
-background-color:white;
+background-color:${Colors.white};
 
 `
 
