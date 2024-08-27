@@ -13,6 +13,9 @@ export const GlobalStyle=createGlobalStyle`
 export const NavBarContainer=styled.div`
 width:100%;
 box-shadow:rgba(0,0,0,0.1) 0px 6px 24px 0px;
+position:sticky;
+top:0;
+background-color:white;
 
 `
 
@@ -20,10 +23,10 @@ export const HeaderContainer=styled.div`
  display: flex;
     justify-content: space-between;
     align-items: center;
-
 margin:0 auto;
 padding:1.8rem;
 max-width:70rem;
+
 
 `
 export const ImageContainer=styled.div`
@@ -43,12 +46,15 @@ font-family: "Great Vibes", cursive;
 `
 export const ListContainer=styled.div`
 
+
 `
 
 export const UnorderedList=styled.ul`
 display:flex;
 gap:1.2rem;
-
+@media (max-width:710px){
+   display:grid;
+}
 `
 export const List=styled.li`
 list-style-type: none;
@@ -77,5 +83,7 @@ text-decoration:none;
  &:hover::after{
     width:100%;
  }
+
+
     
 `
