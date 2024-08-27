@@ -7,11 +7,9 @@ const {
     firozsoftwaredevelopmentengineer,
     home,
     about,
-    services,
     skills,
     projects,
     contact,
-    resume,
 }=ConstValues;
 
 export const Header =()=>{
@@ -25,21 +23,21 @@ export const Header =()=>{
                        <HeaderText>{firozsoftwaredevelopmentengineer}</HeaderText>
                  </ImageContainer>
 
-                <ListContainer>
+                  <ListContainer>
                         
                         <UnorderedList>
                     <List><NavLink href="#">{home}</NavLink></List>
                     <List><NavLink href="#">{about}</NavLink></List>
-                    <List><NavLink href="#">{services}</NavLink></List>
-                    <List><NavLink href="#">{resume}</NavLink></List>
+                    {/* <List><NavLink href="#">{services}</NavLink></List>
+                    <List><NavLink href="#">{resume}</NavLink></List> */}
                     <List><NavLink href="#">{skills}</NavLink></List>
                     <List><NavLink href="#">{projects}</NavLink></List>
                     <List><NavLink href="#">{contact}</NavLink></List>
                     </UnorderedList>
 
-            </ListContainer>
-            </HeaderContainer>
+                  </ListContainer>
+                </HeaderContainer>
             
         </NavBarContainer>
-    </>)
+   </>)
 }
