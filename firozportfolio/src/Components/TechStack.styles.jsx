@@ -29,6 +29,8 @@ align-items:center;
 text-align:center;
 justify-content: space-around;
 border-radius:0.1rem;
+position:relative;
+z-index:-1;
 
 `
 
