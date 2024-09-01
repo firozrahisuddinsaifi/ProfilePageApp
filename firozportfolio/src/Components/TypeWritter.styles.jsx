@@ -25,7 +25,7 @@ align-items:center;
         }
 `
 export const TextContainer=styled.div`
-
+overflow:hidden;
 `
 
 export const RunningText=styled.span`
