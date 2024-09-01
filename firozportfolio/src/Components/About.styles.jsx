@@ -31,7 +31,7 @@ export const AboutHeading=styled.h1`
     text-transform:capitalize;
     display:inline-block;
     position:relative;
-    z-index:0;
+    z-index:-1;
 
 &::after{
     content:" ";
