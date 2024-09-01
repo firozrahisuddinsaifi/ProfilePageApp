@@ -26,12 +26,12 @@ font-weight:600;
 `
 
 export const AboutHeading=styled.h1`
-
     font-weight: 400;
-    color:${Colors.headingColor};
+    color:${Colors.black};
     text-transform:capitalize;
     display:inline-block;
     position:relative;
+    z-index:0;
 
 &::after{
     content:" ";
