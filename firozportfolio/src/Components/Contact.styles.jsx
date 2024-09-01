@@ -10,6 +10,8 @@ export const Container=styled.div`
  background:${Colors.contactBackgroundColor};
  margin:auto;
  border-radius:0.2rem;
+ position:relative;
+ z-index:-1;
 
 `
 export const ContactTitleContainer=styled.div`
