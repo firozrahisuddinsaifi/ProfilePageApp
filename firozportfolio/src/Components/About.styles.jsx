@@ -76,5 +76,7 @@ font-weight:600;
 export const EducationContent=styled.p`
 color:${Colors.gradient};
 opacity:0.8;
+position:relative;
+z-index:-1;
 `
 
