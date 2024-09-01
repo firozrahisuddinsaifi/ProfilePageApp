@@ -9,8 +9,8 @@ export const About=()=>{
             <div>
                 <Container>
                     <AboutTitleContainer>
-                        <AboutTitle>About</AboutTitle>
-                        <AboutHeading>Why You should Hire Me?</AboutHeading>
+                        <AboutTitle>About</AboutTitle> 
+                     <AboutHeading>Why You should Hire Me?</AboutHeading>
                     </AboutTitleContainer>
                     <AboutContentContainer>
                         <AboutContent>
